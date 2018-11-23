@@ -19,7 +19,7 @@ function calculateHash(data) {
 
 block.createIndex({
    index: {
-      fields: ['height', 'hash', 'previousblockhash']
+      fields: ['height', 'hash', 'previousBlockHash', 'timeStamp']
    }
 }).then(function(result) {
    console.log(result);
